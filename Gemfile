@@ -7,6 +7,10 @@ gem 'devise'
 gem 'aws-sdk', '~> 2.3'
 gem 'certified'
 gem 'rails_12factor', group: :production
+gem 'bootstrap', '~> 4.0.0.alpha5'
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.1.0'
+end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
