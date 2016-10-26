@@ -1,7 +1,9 @@
-<nav class="sessions_nav" style="height:100px">
-  <div class="nav-wrapper" width="100%">
-    <img height="100px" src="/assets/commissionme_logo.png" alt="" />
-    <div class="login">
+<div class="container-fluid" id="partials-header">
+  <div class="row">
+    <div class="col-md-6">
+
+    </div>
+    <div class="login col-md-6 text-right">
       <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
       <ul class="right hide-on-med-and-down">
         <li>
@@ -23,4 +25,4 @@
       </ul>
     </div>
   </div>
-</nav>
+</div>
