@@ -8,4 +8,6 @@ Rails.application.routes.draw do
   resources:users
   get '/second' => 'users#second'
   get '/third' => 'users#third'
+
+  post '/users/create' => 'users#create'
 end

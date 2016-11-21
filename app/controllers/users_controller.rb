@@ -13,5 +13,9 @@ class UsersController < ApplicationController
 
   def third
   end
-  
+
+  def create
+    @user
+  end
+
 end

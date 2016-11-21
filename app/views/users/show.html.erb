@@ -10,11 +10,11 @@
       <div class="row" style="height:320px;">
         <div class="col-md-8" id="current_user-info">
           <div class="row">
-            <div class="col-md-4">
-
+            <div class="col-md-4" id="user-avatar">
+              <%= image_tag @user.avatar.url(:medium) %>
             </div>
             <div class="col-md-8 text-left">
-              <h3>NAME</h3>
+              <h3><%= @user.first_name%> <%= @user.last_name %></h3>
               <p>
                 fields of work
               </p>
@@ -35,59 +35,85 @@
         <div class="col-md-4" id="friend-search">
           <div class="row">
             <header class="text-left">
-
+              <p>
+                Friend Search
+              </p>
             </header>
-            <div class="col-md-4">
-
+            <div class="col-md-4 friends">
+              <p>
+                friend
+              </p>
             </div>
-            <div class="col-md-4">
-
+            <div class="col-md-4 friends">
+              <p>
+                friend
+              </p>
             </div>
-            <div class="col-md-4">
-
+            <div class="col-md-4 friends">
+              <p>
+                friend
+              </p>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-4">
-
+            <div class="col-md-4 friends">
+              <p>
+                friend
+              </p>
             </div>
-            <div class="col-md-4">
-
+            <div class="col-md-4 friends">
+              <p>
+                friend
+              </p>
             </div>
-            <div class="col-md-4">
-
+            <div class="col-md-4 friends">
+              <p>
+                friend
+              </p>
             </div>
           </div>
         </div>
       </div>
       <div class="row" style="height:250px">
         <div class="col-md-8" id="current_user-options">
-          <div class="col-md-3">
-
+          <div class="col-md-3 options">
+            <p>
+              Access Calendar
+            </p>
           </div>
-          <div class="col-md-3">
-
+          <div class="col-md-3 options">
+            <p>
+              Portfolio (Upload/edit)
+            </p>
           </div>
-          <div class="col-md-3">
-
+          <div class="col-md-3 options">
+            <p>
+              REsume (Upload/edit)
+            </p>
           </div>
-          <div class="col-md-3">
-
+          <div class="col-md-3 options">
+            <p>
+              Access card catalogue
+            </p>
           </div>
         </div>
         <div class="col-md-4" id="people-share">
-          <div class="row">
+          <div class="row" style="height:200px;">
             <header>
               People Share
             </header>
-            <div class="col-md-4">
-
+            <div class="col-md-4 people">
+              <p>
+                fillter
+              </p>
             </div>
-            <div class="col-md-4">
-
+            <div class="col-md-4 people">
+              <p>
+                fillter
+              </p>
             </div>
-            <div class="col-md-4">
-
+            <div class="col-md-4 people">
+              fillers
             </div>
           </div>
         </div>
